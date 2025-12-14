@@ -55,7 +55,7 @@ $notes = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <h3><?= htmlspecialchars($note['title']) ?></h3>
         <p><?= nl2br(htmlspecialchars($note['content'])) ?></p>
         <small><?= $note['created_at'] ?></small><br>
-        <a href="?delete=<?= $note['id'] ?>" onclick="return confirm('Xóa ghi chú này?')">
+        <a href="?delete=<?= $note['id'] ?>" onclick="return confirm('Muốn xóa ghi chú này?')">
             Xóa
         </a>
     </div>
