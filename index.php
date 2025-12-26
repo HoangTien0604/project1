@@ -40,7 +40,7 @@ $notes = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
 
-<h1>Ghi chú cá nhân</h1>
+<h1>Ghi chú hehe</h1>
 
 <form method="POST">
     <input type="text" name="title" placeholder="Tiêu đề" required>
